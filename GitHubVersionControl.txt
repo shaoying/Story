@@ -1,0 +1,19 @@
+Git Hub Version Control
+Git init
+Git status
+Git add chapter1.txt
+Git add . (add all the new files)
+Git rm --cached -r . (remove all the files in the staging area)
+Git commit -m "Complete Chapter 1"
+Git log
+Git diff
+Git checkout chapter3.txt (roll back the file to the last checking point)
+Git remote add origin https://github.com/shaoying/Story.git
+Git push -u origin master
+
+Creating gitignore file that will not be upload to github
+Touch .gitignore
+
+In the gitignore file
+#This is a comment
+#*.txt this mean ignore all the txt files
